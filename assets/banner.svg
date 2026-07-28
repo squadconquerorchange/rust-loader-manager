@@ -1,0 +1,94 @@
+<svg viewBox="0 0 1200 360" width="1200" height="360" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#1a1210"/>
+<stop offset="55%" stop-color="#241512"/>
+<stop offset="100%" stop-color="#0f0a08"/>
+</linearGradient>
+<linearGradient id="rust" x1="0%" y1="0%" x2="100%" y2="0%">
+<stop offset="0%" stop-color="#ff8a4c"/>
+<stop offset="100%" stop-color="#c9481f"/>
+</linearGradient>
+<radialGradient id="glow" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#ff7a3d" stop-opacity="0.55"/>
+<stop offset="100%" stop-color="#ff7a3d" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="gearGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#e56a34"/>
+<stop offset="100%" stop-color="#8a3213"/>
+</linearGradient>
+<linearGradient id="arrowGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+<stop offset="0%" stop-color="#ffb27a"/>
+<stop offset="100%" stop-color="#e2632c"/>
+</linearGradient>
+</defs>
+
+<rect x="0" y="0" width="1200" height="360" fill="url(#bg)"/>
+
+<circle cx="960" cy="150" r="220" fill="url(#glow)"/>
+
+<g opacity="0.12" stroke="#ff9a5f" stroke-width="1">
+<line x1="0" y1="60" x2="1200" y2="60"/>
+<line x1="0" y1="120" x2="1200" y2="120"/>
+<line x1="0" y1="180" x2="1200" y2="180"/>
+<line x1="0" y1="240" x2="1200" y2="240"/>
+<line x1="0" y1="300" x2="1200" y2="300"/>
+<line x1="150" y1="0" x2="150" y2="360"/>
+<line x1="400" y1="0" x2="400" y2="360"/>
+<line x1="650" y1="0" x2="650" y2="360"/>
+<line x1="900" y1="0" x2="900" y2="360"/>
+</g>
+
+<g opacity="0.85">
+<path d="M965 55 l10 -22 12 5 2 24 14 8 20 -14 9 9 -12 20 6 15 24 3 0 14 -24 4 -6 15 12 20 -9 9 -20 -14 -14 8 -2 24 -12 5 -10 -22 -14 3 -10 22 -12 -5 -2 -24 -14 -8 -20 14 -9 -9 12 -20 -6 -15 -24 -3 0 -14 24 -4 6 -15 -12 -20 9 -9 20 14 14 -8 2 -24 12 -5 10 22z" fill="url(#gearGrad)"/>
+<circle cx="1000" cy="155" r="30" fill="#1a1210"/>
+<circle cx="1000" cy="155" r="30" fill="none" stroke="#ff9a5f" stroke-width="2" opacity="0.6"/>
+</g>
+
+<g opacity="0.9">
+<circle cx="890" cy="245" r="42" fill="url(#gearGrad)"/>
+<circle cx="890" cy="245" r="16" fill="#1a1210"/>
+<circle cx="1075" cy="90" r="26" fill="url(#gearGrad)" opacity="0.7"/>
+<circle cx="1075" cy="90" r="10" fill="#1a1210"/>
+</g>
+
+<g stroke="#ff9a5f" stroke-width="2" opacity="0.45" fill="none">
+<line x1="890" y1="203" x2="890" y2="188"/>
+<line x1="890" y1="287" x2="890" y2="302"/>
+<line x1="848" y1="245" x2="833" y2="245"/>
+<line x1="932" y1="245" x2="947" y2="245"/>
+</g>
+
+<g transform="translate(980,225)">
+<polygon points="20,0 40,0 40,45 60,45 30,85 0,45 20,45" fill="url(#arrowGrad)" opacity="0.9"/>
+<line x1="0" y1="100" x2="60" y2="100" stroke="#ff9a5f" stroke-width="4" opacity="0.7"/>
+</g>
+
+<g opacity="0.35" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#ffb27a">
+<text x="1030" y="60">01001</text>
+<text x="1060" y="300">11010</text>
+<text x="880" y="330">10011</text>
+</g>
+
+<rect x="60" y="70" width="6" height="180" fill="url(#rust)" opacity="0.85"/>
+
+<text x="80" y="150" font-family="'Segoe UI', Arial, sans-serif" font-size="72" font-weight="700" fill="#fdf3ec" textLength="760" lengthAdjust="spacingAndGlyphs">
+Rust Loader
+</text>
+<text x="80" y="228" font-family="'Segoe UI', Arial, sans-serif" font-size="72" font-weight="700" fill="url(#rust)" textLength="380" lengthAdjust="spacingAndGlyphs">
+Download
+</text>
+
+<text x="80" y="275" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="#d8c3b6" textLength="820" lengthAdjust="spacingAndGlyphs">
+Delivers a lightweight loader download built for devs who need fast, secure
+</text>
+<text x="80" y="302" font-family="'Segoe UI', Arial, sans-serif" font-size="22" fill="#d8c3b6" textLength="300" lengthAdjust="spacingAndGlyphs">
+binary retrieval
+</text>
+
+<g opacity="0.6">
+<circle cx="70" cy="55" r="4" fill="#ff8a4c"/>
+<circle cx="95" cy="45" r="3" fill="#ff8a4c"/>
+<circle cx="120" cy="60" r="2.5" fill="#ff8a4c"/>
+</g>
+</svg>
